@@ -160,4 +160,3 @@ This is not a production security boundary. It has no authentication, multi-user
 - `slides.html`: 8-slide self-contained browser deck with the Earth visual and Analyst conversation example included.
 - `docs/demo_script.md`: concise feature demonstration sequence.
 - `evidence/portkey-run-2026-10-24.json`: one measured provider usage record with no secret.
-- `SUBMISSION_CHECKLIST.md`: repository verification record.
