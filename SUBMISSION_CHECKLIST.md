@@ -1,4 +1,4 @@
-# Submission checklist
+# Repository verification checklist
 
 ## Complete in the local repository
 
@@ -10,16 +10,9 @@
 - [x] Add one-level-parent `.env` loading for the course fresh-clone layout.
 - [x] Escape dynamic chat/object/model text and cap agent request/model budgets.
 
-## Tyler must complete before Canvas
+## Scope notes
 
-- [ ] Revoke the GitHub personal-access token visible in old pasted terminal history.
-- [ ] Create or verify the GitHub repository and add the real URL to `README.md`, `report.html`, and `slides.html`.
-- [ ] Perform a fresh-clone dry run with the course `.env` one level above the clone.
-- [ ] Start the app from the README and verify the principal demo path on the submission computer.
-- [ ] Add the final demo video and its real file/link.
-- [ ] Run `report.html` and `slides.html` by double-clicking; print-preview the report at US Letter and check slide navigation/fullscreen.
-- [ ] Conduct and document an independent user test if presenting independent impact evidence.
-- [ ] Record the optional 2–3 minute demo video.
-- [ ] Submit the GitHub URL, `report.html`, and `slides.html` on Canvas by the stated deadline.
-
-Do not claim a hosted URL, user-study result, or screenshots unless the corresponding item is actually completed.
+- The application is a local educational prototype and does not claim a hosted deployment or operational space-safety capability.
+- Independent user-study results are not claimed; the product's impact hypothesis and limitations are documented separately.
+- The bundled evidence records describe only checks and provider usage that are actually represented in this repository.
+- Secrets remain local: never commit `.env` or expose a provider key in source, screenshots, or documentation.

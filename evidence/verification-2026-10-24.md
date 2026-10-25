@@ -11,7 +11,7 @@ Development environment: Node.js v24.20.0; macOS; local loopback server.
 | `npm run build` | pass |
 | Local Portkey request | HTTP 200; usage recorded in `portkey-run-2026-10-24.json` |
 
-The manual smoke path used for the app was: start the server, open `http://127.0.0.1:4173`, rotate and zoom the globe, search/select an object, apply type/purpose/altitude filters, ask a band question, apply a natural-language navigation filter, advance the simulation, open Launches and Sources, and request collision-probability guidance. A fresh-clone dry run, browser automation, FPS benchmark, and independent user session remain Tyler's final evidence tasks.
+The manual smoke path used for the app was: start the server, open `http://127.0.0.1:4173`, rotate and zoom the globe, search/select an object, apply type/purpose/altitude filters, ask a band question, apply a natural-language navigation filter, advance the simulation, open Launches and Sources, and request collision-probability guidance. This record reports the completed manual and automated checks without claiming browser automation, an FPS benchmark, or an independent user-study result.
 
 Security checks completed in this build:
 

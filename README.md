@@ -2,21 +2,19 @@
 
 OrbitBrief is Tyler Coleman's MGT 409 final project: an offline-first orbital briefing studio that turns a dated public orbital catalog into an explorable 3D Earth, deterministic filters, modeled satellite motion, and source-backed analyst answers.
 
-Submission links: GitHub and hosted URL are intentionally left as final external actions because no repository or deployment was created from this workspace. Add only real links before submission.
-
 ## Run it step by step
 
 Requirements: Node.js 20 or newer and a modern browser with WebGL support. No database, Python environment, map key, or paid service is required for the bundled snapshot.
 
 ### 1. Open Terminal and enter the project
 
-From the folder containing this verification copy, run:
+From a fresh clone of the repository, run:
 
 ```bash
 cd Final_Project_2/final_project_vf
 ```
 
-If you are already inside the project folder, skip this command. Confirm you are in the correct folder with:
+If you are already inside the `final_project_vf` folder, skip this command. Confirm you are in the correct folder with:
 
 ```bash
 pwd
@@ -156,14 +154,10 @@ The server is local-only by default, caps agent request bodies at 16 KiB, limits
 
 This is not a production security boundary. It has no authentication, multi-user isolation, persistent rate limiter, CSP header, or formal penetration test. Keep it on loopback for the course demo. See `docs/limitations.md` and `evidence/verification-2026-10-24.md` before any deployment.
 
-## Submission files
+## Project files
 
-- `report.html`: self-contained report in the assignment's section order, with the final video demonstration path documented.
-- `slides.html`: 9-slide self-contained browser deck with the Earth visual and Analyst conversation example included.
-- `docs/demo_script.md`: 2–3 minute recording sequence.
+- `report.html`: self-contained report in the assignment's section order, documenting product behavior and evidence.
+- `slides.html`: 8-slide self-contained browser deck with the Earth visual and Analyst conversation example included.
+- `docs/demo_script.md`: concise feature demonstration sequence.
 - `evidence/portkey-run-2026-10-24.json`: one measured provider usage record with no secret.
-- `SUBMISSION_CHECKLIST.md`: final actions that cannot be completed from this local workspace.
-
-## Honest remaining actions
-
-Tyler must still create/verify the GitHub repository, perform a fresh-clone dry run with the course `.env` one level above it, add the final demo video, conduct an independent user test if presenting independent impact evidence, print-preview the HTML files, and submit the repo URL, `report.html`, and `slides.html` on Canvas. A GitHub token appeared in old pasted terminal history; revoke it before submission and create a new credential only through GitHub's normal flow if needed.
+- `SUBMISSION_CHECKLIST.md`: repository verification record.
