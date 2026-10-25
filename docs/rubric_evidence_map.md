@@ -8,7 +8,7 @@
 | App works — 15 | `client/`, `server/`, `data/catalog-real.json`, `npm test`, `docs/verification.md` | Implemented and documented with a local smoke path. |
 | Staff can run — 5 | `README.md`, `.env.example`, `package-lock.json`, loopback server | Numbered local run instructions and pinned dependencies are included. |
 | Look and feel — 10 | Browser app, local Earth texture, WebGL globe, filters, time controls | Implemented with documented interaction paths. |
-| Motivation / novelty — 8 | `report.html`, `business/competitor_matrix.md` | Honest comparison needs final official-page access dates. |
+| Motivation / novelty — 8 | `report.html`, `docs/data_sources.md` | Named CelesTrak, KeepTrack, and NASA references establish the comparison baseline. |
 | Agent design — 10 | `docs/architecture.md`, `server/index.js`, `docs/demo_script.md` | One bounded analyst plus deterministic query paths and a concise demonstration sequence. |
 | Tokenomics — 8 | `evidence/portkey-run-2026-10-24.json`, `docs/tokenomics.md` | One real usage run measured; estimates are labeled rather than presented as billing. |
 | Safety — 8 | `docs/security.md`, `evidence/verification-2026-10-24.md`, deterministic collision limitation | Built defenses and scientific limits are documented. |

@@ -8,13 +8,7 @@ Requirements: Node.js 20 or newer and a modern browser with WebGL support. No da
 
 ### 1. Open Terminal and enter the project
 
-From a fresh clone of the repository, run:
-
-```bash
-cd Final_Project_2/final_project_vf
-```
-
-If you are already inside the `final_project_vf` folder, skip this command. Confirm you are in the correct folder with:
+Open Terminal in the cloned repository folder—the folder containing `README.md`, `package.json`, `client`, `server`, and `data`. Confirm you are in the correct folder with:
 
 ```bash
 pwd
