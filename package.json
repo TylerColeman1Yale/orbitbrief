@@ -1,0 +1,19 @@
+{
+  "name": "orbitbrief",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test tests/*.test.js",
+    "validate": "node scripts/validate-data.js",
+    "refresh": "node scripts/refresh-real.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "satellite.js": "^7.1.0"
+  }
+}

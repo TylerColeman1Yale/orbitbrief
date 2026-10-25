@@ -1,0 +1,29 @@
+{
+  "runId": "portkey-2026-10-24-195033Z",
+  "promptVersion": "report-tokenomics-v1",
+  "provider": "Portkey/OpenAI",
+  "requestedModel": "gpt-6-luna",
+  "routedModel": "gpt-6-luna-global",
+  "datasetId": "celestrak-groups-2026-10-24",
+  "simulationTime": "2026-10-24T09:31:11.728Z",
+  "inputTokens": 255,
+  "cachedInputTokens": 0,
+  "cacheWriteTokens": 0,
+  "outputTokens": 168,
+  "reasoningTokens": 106,
+  "totalTokens": 423,
+  "courseRateSheet": {
+    "inputPerMillionUsd": 0.1,
+    "cachedInputPerMillionUsd": 0.01,
+    "outputPerMillionUsd": 0.5,
+    "source": "MGT 409 Lecture 11 rate sheet in HW6/data/prices.json"
+  },
+  "estimatedCostUsd": 0.0001095,
+  "costFormula": "255/1000000*0.10 + 168/1000000*0.50",
+  "notes": [
+    "One measured provider request; not an average across all questions.",
+    "The provider reported zero cached input tokens; this is recorded as zero, not as missing.",
+    "Deterministic catalog counts, SGP4 propagation, filtering, and globe rendering add no LLM token cost.",
+    "Hosting, bandwidth, and public-data service limits are excluded from this model-only estimate."
+  ]
+}
